@@ -36,6 +36,12 @@ export default [
             component: './blockTest',
           },
           {
+            path: '/usercenter',
+            name: 'usercenter',
+            icon: 'user',
+            component: './UserCenter',
+          },
+          {
             component: './404',
           },
         ],
@@ -48,4 +54,4 @@ export default [
   {
     component: './404',
   },
-]
+];

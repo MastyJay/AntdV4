@@ -1,10 +1,16 @@
-import React, { Fragment } from 'react';
+import React, { Component } from 'react';
 import UserCenter from './UserCenter';
 
-export default function() {
-  return (
-    <Fragment>
-      <UserCenter />
-    </Fragment>
-  );
+class UserCenterContainer extends Component {
+  state = {};
+
+  render() {
+    return (
+      <React.Fragment>
+        <UserCenter />
+      </React.Fragment>
+    );
+  }
 }
+
+export default UserCenterContainer;
